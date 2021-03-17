@@ -1,0 +1,32 @@
+html {
+  background-color: #ddd;
+}
+
+h1.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: bold;
+}
+
+div#container {
+  margin: 0 auto;
+}
+
+div#box {
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*#box:hover{
+    background-color: rgb(81, 38, 236);
+}
+/*
+#container > div:nth-child(3n){
+    background-color: blue;
+}
+
+#container > div:nth-child(3n+1){
+    background-color: rgb(230, 36, 230);
+}*/
